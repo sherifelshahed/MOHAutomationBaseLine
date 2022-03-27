@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]">
+  <test thread-count="5" name="Command line test(failed)">
+    <classes>
+      <class name="TestCases.IP_TC_879">
+        <methods>
+          <include name="close_browser"/>
+          <include name="setup"/>
+          <include name="navigate_to_ACC_Place_Panel_Order" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.IP_TC_879 -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

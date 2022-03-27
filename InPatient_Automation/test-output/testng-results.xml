@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-24T13:45:35 EET" name="Command line suite" finished-at="2022-03-24T13:45:45 EET" duration-ms="9802">
+    <groups>
+    </groups>
+    <test started-at="2022-03-24T13:45:35 EET" name="Command line test" finished-at="2022-03-24T13:45:45 EET" duration-ms="9802">
+      <class name="TestCases.IP_TC_879">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.IP_TC_879@79ed641b]" started-at="2022-03-24T13:45:35 EET" name="setup" finished-at="2022-03-24T13:45:38 EET" duration-ms="2848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigate_to_ACC_Place_Panel_Order(java.lang.String)[pri:0, instance:TestCases.IP_TC_879@79ed641b]" started-at="2022-03-24T13:45:39 EET" name="navigate_to_ACC_Place_Panel_Order" data-provider="test_data" finished-at="2022-03-24T13:45:41 EET" duration-ms="1921" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A200000584]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.util.NoSuchElementException">
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException
+at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:758)
+at java.base/java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:778)
+at CMO_Pages.CMO_Select_Form.select_form(CMO_Select_Form.java:18)
+at TestCases.IP_TC_879.navigate_to_ACC_Place_Panel_Order(IP_TC_879.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at TestCases.UITestCasesTitle$2.actionPerformed(UITestCasesTitle.java:171)
+at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_to_ACC_Place_Panel_Order -->
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:TestCases.IP_TC_879@79ed641b]" started-at="2022-03-24T13:45:41 EET" name="close_browser" finished-at="2022-03-24T13:45:45 EET" duration-ms="4021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- TestCases.IP_TC_879 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
