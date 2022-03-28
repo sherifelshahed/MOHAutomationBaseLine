@@ -28,7 +28,7 @@ public class IP_TC_837 {
 	}
 
 	@Test
-	public void navigate_to_Verify_Transfer_Stock_Across_Facilities() {
+	public void navigate_to_Pharmacist_Verify_Transfer_Stock_Across_Facilities() {
 
 		Login_EM_Inventory_Management login = new Login_EM_Inventory_Management();
 		login.login(driver);

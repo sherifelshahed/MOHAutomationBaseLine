@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class NUR_Login_HP {
 
@@ -19,7 +20,7 @@ public class NUR_Login_HP {
 		By password = By.id("his-password");
 		driver.findElement(password).sendKeys("egy123");
 
-		By login_button = By.xpath("/html/body/app-root/app-common-login/div/div[2]/div[2]/form/button");
+		By login_button = By.xpath("//*[@id=\"common-login\"]/div[2]/div[2]/form/button");
 		driver.findElement(login_button).click();
 	}
 

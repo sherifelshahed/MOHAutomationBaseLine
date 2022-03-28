@@ -26,7 +26,7 @@ public class IP_TC_883 {
 	}
 
 	@Test
-	public void navigate_to_Check_Ward_Occupancy() {
+	public void navigate_to_Nurse_Check_Ward_Occupancy() {
 
 		NUR_Login_EM login = new NUR_Login_EM();
 		login.login(driver);

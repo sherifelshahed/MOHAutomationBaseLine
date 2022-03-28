@@ -31,7 +31,7 @@ public class IP_TC_879 {
 	}
 
 	@Test(dataProvider = "test_data")
-	public void navigate_to_ACC_Place_Panel_Order(String Patient_ID) {
+	public void navigate_to_CMO_Place_Panel_Order(String Patient_ID) {
 		
 		CMO_Login_EM login = new CMO_Login_EM();
 		login.login(driver);

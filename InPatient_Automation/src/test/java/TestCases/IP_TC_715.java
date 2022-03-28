@@ -27,7 +27,7 @@ public class IP_TC_715 {
 	}
 
 	@Test
-	public void navigate_to_login() {
+	public void navigate_to_Doctor_login_HP() {
 
 		DOC_Login_HP Login = new DOC_Login_HP();
 		Login.login_Edge(driver);

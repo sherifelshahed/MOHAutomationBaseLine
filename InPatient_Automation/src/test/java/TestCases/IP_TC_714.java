@@ -33,7 +33,7 @@ public class IP_TC_714 {
 	}
 
 	@Test(dataProvider = "test_data")
-	public void navigate_to_Prescribe_Medications(String Patient_ID) {
+	public void navigate_to_Doctor_Prescribe_Medications(String Patient_ID) {
 
 		DOC_Login_HP Login = new DOC_Login_HP();
 		Login.login_Edge(driver);

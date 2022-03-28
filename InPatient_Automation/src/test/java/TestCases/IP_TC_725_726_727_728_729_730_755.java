@@ -32,7 +32,7 @@ public class IP_TC_725_726_727_728_729_730_755 {
 	}
 
 	@Test(dataProvider = "test_data")
-	public void navigate_to_OP_consultation_form(String Patient_ID) {
+	public void navigate_to_Doctor_InPatient_Submit_OP_Consultation_Form(String Patient_ID) {
 
 		DOC_Login_HP Login = new DOC_Login_HP();
 		Login.login_Edge(driver);

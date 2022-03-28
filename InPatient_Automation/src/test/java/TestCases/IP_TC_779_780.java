@@ -26,7 +26,7 @@ public class IP_TC_779_780 {
 	}
 
 	@Test
-	public void navigate_to_DOC_Change_Password() {
+	public void navigate_to_Doctor_Change_Password() {
 
 		Login1_HP Login1 = new Login1_HP();
 		Login1.login_Edge(driver);

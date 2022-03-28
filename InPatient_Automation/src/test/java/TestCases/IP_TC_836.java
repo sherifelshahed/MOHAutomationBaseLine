@@ -26,7 +26,7 @@ public class IP_TC_836 {
 	}
 
 	@Test
-	public void navigate_to_Stock_Item_Consumption() {
+	public void navigate_to_Pharmacist_Stock_Item_Consumption() {
 
 		Login_EM_Inventory_Management login = new Login_EM_Inventory_Management();
 		login.login(driver);

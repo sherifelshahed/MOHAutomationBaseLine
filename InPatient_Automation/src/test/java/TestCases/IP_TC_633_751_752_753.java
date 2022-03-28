@@ -38,7 +38,7 @@ public class IP_TC_633_751_752_753 {
 	}
 
 	@Test(dataProvider = "test_data")
-	public void navigate_to_DOC_approve_Order(String Patient_ID) {
+	public void navigate_to_Doctor_Approve_Order(String Patient_ID) {
 
 		NUR_Login_HP Login = new NUR_Login_HP();
 		Login.login_Edge(driver);

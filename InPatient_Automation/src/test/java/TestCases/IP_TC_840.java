@@ -31,7 +31,7 @@ public class IP_TC_840 {
 	}
 
 	@Test(dataProvider = "test_data")
-	public void navigate_to_Accept_Return_Medication(String Patient_ID) {
+	public void navigate_to_Pharmacist_Accept_Return_Medication(String Patient_ID) {
 
 		Login_EM_Pharmacy_Management login = new Login_EM_Pharmacy_Management();
 		login.login(driver);

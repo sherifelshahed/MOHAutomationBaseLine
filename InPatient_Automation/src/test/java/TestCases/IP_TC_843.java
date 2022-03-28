@@ -31,7 +31,7 @@ public class IP_TC_843 {
 	}
 
 	@Test(dataProvider = "test_data")
-	public void navigate_to_Fill(String Patient_ID) {
+	public void navigate_to_Pharmacist_Dispense_Medication_Fill_Step(String Patient_ID) {
 
 		Login_EM_IPD_Pharmacist login = new Login_EM_IPD_Pharmacist();
 		login.login(driver);

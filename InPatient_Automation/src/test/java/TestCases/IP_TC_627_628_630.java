@@ -34,7 +34,7 @@ public class IP_TC_627_628_630 {
 	}
 
 	@Test(dataProvider = "test_data")
-	public void navigate_to_NUR_Place_Order(String Patient_ID) {
+	public void navigate_to_Nurse_Place_Order(String Patient_ID) {
 
 		NUR_Login_HP Login = new NUR_Login_HP();
 		Login.login_Edge(driver);

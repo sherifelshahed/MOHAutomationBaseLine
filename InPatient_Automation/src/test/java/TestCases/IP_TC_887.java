@@ -26,7 +26,7 @@ public class IP_TC_887 {
 	}
 
 	@Test
-	public void navigate_to_Cancel_request() throws InterruptedException {
+	public void navigate_to_Pharmacist_Cancel_request() throws InterruptedException {
 
 		Login_EM_Inventory_Management login = new Login_EM_Inventory_Management();
 		login.login(driver);

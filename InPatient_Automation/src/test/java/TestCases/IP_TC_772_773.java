@@ -33,7 +33,7 @@ public class IP_TC_772_773 {
 	}
 
 	@Test(dataProvider = "test_data")
-	public void navigate_to_Submit_after_save_as_draft_Discharge_summary(String Patient_ID) {
+	public void navigate_to_Doctor_Submit_after_save_as_draft_Discharge_Summary(String Patient_ID) {
 
 		DOC_Login_HP Login = new DOC_Login_HP();
 		Login.login_Edge(driver);

@@ -372,7 +372,7 @@ public class CMO_Admit_and_Register_Patient {
 //																							"Operation Completed Successfully");
 
 																	Thread.sleep(3000);
-
+//
 																	String currentWindow9 = driver.getWindowHandle();
 																	Set<String> windows9 = driver.getWindowHandles();
 																	for (String window9 : windows9) {
@@ -380,7 +380,6 @@ public class CMO_Admit_and_Register_Patient {
 																		System.out.println(driver.getTitle());
 																		if (driver.getTitle()
 																				.contains("Internal Reports")) {
-																			System.out.println(driver.getCurrentUrl());
 																			driver.close();
 
 																			Thread.sleep(1000);

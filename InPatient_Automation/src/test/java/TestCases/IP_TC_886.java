@@ -26,7 +26,7 @@ public class IP_TC_886 {
 	}
 
 	@Test
-	public void navigate_to_Create_Review_request() throws InterruptedException {
+	public void navigate_to_Pharmacist_Create_Review_request() throws InterruptedException {
 
 		Login_EM_Inventory_Management login = new Login_EM_Inventory_Management();
 		login.login(driver);
